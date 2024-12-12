@@ -1,0 +1,97 @@
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #results {
+            margin-top: 20px;
+        }
+        .result-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .result-item h3 {
+            margin: 0;
+        }
+        .result-item a {
+            color: blue;
+            text-decoration: none;
+        }
+        .result-item a:hover {
+            text-decoration: underline;
+        }
+        #main {
+            color: #4CAF50;
+            margin-top: 20px;
+            font-size: 2rem;
+        }
+
+        h4 {
+            color: #888;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5rem;
+        }
+
+        #searchForm {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #query {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #results {
+            text-align: center;
+            margin: 20px;
+            font-size: 1rem;
+        }
+
+        #body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
